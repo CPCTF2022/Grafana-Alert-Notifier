@@ -29,4 +29,4 @@ jobs:
       - name: deploy
         run: clasp deploy --description "${TAG_NAME}"
       - name: deploy-latest
-        run: clasp deploy --description "latest" --deploymentId AKfycbw2xqqmRUQXcvqzGhxqsrLaOn7mvqQiDohO4Gsdna9BCduIP87X0bT2bQp6Gp6oa-7B
+        run: clasp deploy --description "latest" --deploymentId AKfycbzhX0F0i7B1JhwH9Uv51yV6b3UD8kUdCZCmiBFOtrju-uXbBWfj9HLOYD6X3YaEEZLu

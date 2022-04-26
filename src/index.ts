@@ -5,7 +5,7 @@ function getProp(key: string) {
   return PropertiesService.getScriptProperties().getProperty(key)!
 }
 
-const WEBHOOK_ID = 'e9b36487-e723-4ed3-b78d-45d72f1f599d'
+const WEBHOOK_ID = '3a614c48-bd7f-41d8-8d9f-02ad90481ea2'
 const WEBHOOK_SECRET = getProp('WEBHOOK_SECRET')
 
 function doPost(e: GoogleAppsScript.Events.DoPost) {
